@@ -1,8 +1,12 @@
 var numA = Number
+let message = ''
 
-numA = prompt('Ecris ton chiffre !');
+numA = parseInt(prompt('Ecris ton chiffre !'));
 
-if (numA%2 == 0)
-    alert(`nombre pair`);
-else 
-    alert(`nombre impair`);
+if (numA%2 == 0){
+    message:`nombre pair`;
+}
+else{
+    message:`nombre impair`;
+}
+alert(message);
