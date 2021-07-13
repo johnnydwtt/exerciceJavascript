@@ -1,35 +1,41 @@
 // Variables
-var day = 7;
+var day = '1';
+day=parseInt(day)
 
 // instructions
 day = prompt (`Met un chiffre entre 1 et 7`);
+var dayA = ''
 
 switch(day){
     case '1':
-        alert('Lundi');
+        dayA=('Lundi');
     break;
 
     case '2':
-        alert('Mardi');
+        dayA=('Mardi');
     break;
 
     case '3':
-        alert('Mercredi');
+        dayA=('Mercredi');
     break;
 
     case '4':
-        alert('Jeudi');
+        dayA=('Jeudi');
     break;
 
     case '5':
-        alert('Vendredi');
+        dayA=('Vendredi');
     break;
 
     case '6':
-        alert('Samedi');
+        dayA=('Samedi');
     break;   
 
     case '7':
-        alert('Dimanche');
+        dayA=('Dimanche');
     break;
+    default:
+        day=('Erreur')
 };
+
+alert(dayA);
