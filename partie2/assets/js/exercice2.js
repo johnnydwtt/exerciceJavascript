@@ -1,4 +1,4 @@
-var age
+var age = Number
 
 age = prompt ("Quel âge avez-vous?")
 
