@@ -1,2 +1,2 @@
-var message = "premier"
+var message = 'premier';
 alert(message);

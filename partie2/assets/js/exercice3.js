@@ -1,8 +1,8 @@
 var numA = Number
 
-numA = prompt("Ecris ton chiffre !")
+numA = prompt('Ecris ton chiffre !');
 
 if (numA%2 == 0)
-    alert(`nombre pair`)
+    alert(`nombre pair`);
 else 
-    alert(`nombre impair`)
+    alert(`nombre impair`);

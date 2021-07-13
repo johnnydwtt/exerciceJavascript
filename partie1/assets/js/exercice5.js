@@ -5,9 +5,11 @@ var resultNumber = Number
 
 // instructions
 
-firstNumber = prompt("premier chiffre?")
-secondNumber = prompt("second chiffre?")
+firstNumber = prompt('premier chiffre?');
+secondNumber = prompt('second chiffre?');
 
 resultNumber = Number(firstNumber) + Number(secondNumber);
 
-alert(`Voici le résultat de ton addition ${resultNumber}`)
+    alert(`${resultNumber}`)
+
+    console.log(`ton calcul est ${firstNumber} + ${secondNumber}`)
