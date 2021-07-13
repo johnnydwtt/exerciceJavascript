@@ -12,4 +12,4 @@ resultNumber = Number(firstNumber) + Number(secondNumber);
 
     alert(`${resultNumber}`)
 
-    console.log(`ton calcul est ${firstNumber} + ${secondNumber}`)
+    console.log(`ton calcul est ${firstNumber} + ${secondNumber} = ${resultNumber}`)
