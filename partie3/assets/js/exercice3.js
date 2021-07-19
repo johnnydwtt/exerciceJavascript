@@ -2,7 +2,9 @@ let languages = ['html', 'css', 'javascript', 'php', 'mysql', 'c++','ruby','pyth
 console.log(languages)
 for (var i = 0; i < languages.length; i++){
 
-    document.write(languages[i]+" | ");
+    document.write(`<div>${languages[i]}</div>`);
 
 }
+
+
 
