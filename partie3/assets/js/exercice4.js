@@ -1,5 +1,11 @@
-let days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi','Dimanche'];
+let days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
 
-for (var i = 0; i < days.length; i++)
+for (let i = 0; i < days.length; i++) {
 
-    document.write(days[i]+" | ");
+    if ((days[i] === 'Samedi') || (days[i] === 'Dimanche')) {
+        document.write(days[i].bold() + " ");
+
+    } else {
+        document.write(days[i] + " ");
+    }
+}
