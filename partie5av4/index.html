@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>exercice part5</title>
 </head>
 
 <body>
-    <form method="POST" onSubmit="return validate()">
-        <legend>Formulaire</legend>
-        <label>Mot de passe :</label> <input type="password" id="mdp" name="mdp" placeholder="Votre mot de passe"
-            size="22" maxlength="20" required />
-        <input type="password" id="confirm_mdp" name="confirm_mdp" placeholder="Confirmation du mot de passe" size="22"
-            maxlength="20" required />
-        <input type="submit">
+    <form class="" method="post">
+        <p>
+            <label for="pass">Mot de passe :</label>
+            <input type="password" name="pass" id="pass"  />
+        </p> 
+        <p>
+            <label for="verif_pass" id="passs">Mot de passe 2 :</label>
+            <input type = "password" name="vpass" id="vpass" onchange="passverif()"/>
+        </p>
+        <p>
+            <button type="button">envoyer</button>
+        </p>
     </form>
 
-    <script src="assets/js/exercice1.js"></script>
+<script src="assets/js/exercice1.js"></script>
 </body>
 
 </html>

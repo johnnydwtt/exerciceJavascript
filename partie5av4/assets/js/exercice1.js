@@ -1,12 +1,9 @@
-function validate() {
- 
-    var a = document.getElementById("mdp").value;
-    var b = document.getElementById("confirm_mdp").value;
-
-    if (a!=b) {
-        alert("Les mots de passe ne correspondent pas.");
-        return false; }
-    else {
-        alert("Les mots de passe correspondent.");
-        return false; }
- }
+function passverif() {
+    var pass = document.getElementById('pass').value;
+    var vpass = document.getElementById('vpass').value;
+    if( pass != vpass ) { 
+        document.getElementById('passs').style.color = "#f00";
+    } else { 
+        document.getElementById('passs').style.color = "#0f0"; 
+    } 
+} 
