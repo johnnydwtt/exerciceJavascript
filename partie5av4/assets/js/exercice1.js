@@ -3,7 +3,9 @@ function passverif() {
     var vpass = document.getElementById('vpass').value;
     if( pass != vpass ) { 
         document.getElementById('passs').style.color = "#f00";
+        document.getElementById('vpass').style.backgroundColor = "#f00";
     } else { 
-        document.getElementById('passs').style.color = "#0f0"; 
+        document.getElementById('passs').style.color = "#0f0";
+        document.getElementById('vpass').style.backgroundColor = "#0f0";  
     } 
 } 
