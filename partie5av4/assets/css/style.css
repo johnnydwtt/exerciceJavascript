@@ -5,7 +5,18 @@
     color: green;
 }
 
-#passs{
-    color: red;
-    background-color: red;
+.largM{
+    width: 50%;
+}
+/* JS FORMULAIRE EMAIL VALID ETC... */
+
+.validA{
+    color: #00d812;
+    background-color: #c2ffba;
+ }
+
+
+.invalidA{
+    color: #D8000C;
+    background-color: #FFBABA;
 }
