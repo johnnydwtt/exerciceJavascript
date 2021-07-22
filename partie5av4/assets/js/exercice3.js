@@ -1,40 +1,44 @@
 // FONCTION POUR LE NOM
-function validateName(nameUsers) {
-
-    var nameReg = new RegExp(/^[(a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð) '-]+$/)
+    var nameReg = new RegExp(/^([a-zA-Z '-]{1,20})$/);
     var valid = nameReg.test(nameUsers);
+    var button = document.getElementById('button');
 
-    if (valid) {
-        document.getElementById('').innerHTML = ("");
-    } else {
-        document.getElementById('invalidC').innerHTML = ("Le Nom est incorrecte");
+    button.onclick = () => {
+
+        if (valid) {
+            document.getElementById('valid').innerHTML = ("");
+        } else {
+            document.getElementById('invalidC').innerHTML = ("Nom incorrecte");
+        }
     }
-}
+
 // FONCTION POUR EMAIL
 
-// ==================> fonction
-function validateEmail(email) {
-
-    // ==================> déclaration
-    var emailReg = new RegExp(/^([\w\.\-]+)@((?:[\w]+\.)+)([a-zA-Z]{2,4})/i);
+ // ==================> déclaration
+    var emailReg = new RegExp(/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/);
     var valid = emailReg.test(email);
+    var button = document.getElementById('button');
 
-    // ==================> instruction
-    if (valid) {
-        document.getElementById('').innerHTML = ("");
-    } else {
-        document.getElementById('invalid').innerHTML = ("L'Email est incorrecte");
+    button.onclick = () => {
+
+        // ==================> instruction
+        if (valid) {
+            document.getElementById('').innerHTML = ("");
+        } else {
+            document.getElementById('invalid').innerHTML = ("Email incorrecte");
+        }
     }
-}
+
 // FONCTION POUR L'AGE
-function validateAge(idAge) {
-
-    var ageReg = new RegExp(/^\S[0-9]{0,3}$/);
+    var ageReg = new RegExp(/^100$|^[0-9]{1,2}$|^[0-9]{1,2}\,[0-9]{1,3}$/);
     var valid = ageReg.test(idAge);
+    var button = document.getElementById('button');
 
-    if (valid) {
-        document.getElementById('').innerHTML = ("");
-    } else {
-        document.getElementById('invalidB').innerHTML = ("L'age est incorrecte");
+    button.onclick = () => {
+
+        if (valid) {
+            document.getElementById('').innerHTML = ("");
+        } else {
+            document.getElementById('invalidB').innerHTML = ("Age incorrecte");
+        }
     }
-}

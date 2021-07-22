@@ -1,4 +1,4 @@
-// Exercice 2
+ // Exercice 2
 
 // Cet algorhytme indique si le mot de passe correspond à sa confirmation
 
@@ -7,13 +7,16 @@
 let pass1 = document.getElementById('passone');
 let pass2 = document.getElementById('passtwo');
 let button = document.getElementById('button1');
-button.onclick= () => {
+
+button.onclick= () => {  
+        pass1.classList.remove=('green','red')
+        pass2.classList.remove=('green','red')
 // On ajoute .value car on compare la valeur du champ HTML
     if(pass1.value===pass2.value){
-        pass1.className=('green')
-        pass2.className=('green')     
+        pass1.classList.add=('green')
+        pass2.classList.add=('green')     
     }else{
-        pass1.className=('red')
-        pass2.className=('red')    
+        pass1.classList.add=('red')
+        pass2.classList.add=('red')    
     }
 }
