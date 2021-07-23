@@ -1,0 +1,61 @@
+.imgStyle{
+    height: 250px;
+}
+
+
+
+
+/* .......................... */
+
+.pink{
+    color: pink;
+}
+.blue{
+    color: blue;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style:italic;
+}
+.purple{
+    color: purple;
+}
+
+/* .......................... */
+
+.red{
+    border: solid 3px red;
+}
+.green{
+    border: solid 3px green;
+}
+
+.largM{
+    width: 50%;
+    border: solid 2px white;
+    /* background-image: url(../img/fond.jpg); */
+}
+
+.fond{
+    width: 50%;
+    border: solid 2px white; 
+    background-image: url(../img/fond2.jpg);
+}
+
+.hA{
+    height: 95px;
+}
+/* JS FORMULAIRE EMAIL VALID ETC... */
+
+.validA{
+    color: #00d812;
+    background-color: #c2ffba;
+ }
+
+
+.invalidA{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
