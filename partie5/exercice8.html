@@ -11,23 +11,11 @@
 </head>
 
 <body>
-    <fieldset id="clonePlus" class="d-flex justify-content-center align-items-center">
-        <form id="formClone" class="bg-primary w-25" action="">
-            <div>
-                <legend>Prénom:</legend>
-                <input type="text" name="firstname" id="firstName">
-            </div>
-            <div>
-                <legend>Age:</legend>
-                <div></div>
-                <input type="number" name="age" id="age">
-                <input type="button" id="btnClone" value="+">
-            </div>
-            </div>
-
-
-        </form>
-    </fieldset>
+    <form name="formulaireDynamique">
+        <input type="button" class="bg-primary" onclick="ajout(this);" value="AJOUTER-MOI"/>
+        <br /><br />
+        <input type="submit" value="ENVOYER"/>
+     </form>
 
     <script src="assets/js/exercice8.js"></script>
 </body>
