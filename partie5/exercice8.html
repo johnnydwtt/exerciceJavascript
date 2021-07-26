@@ -11,12 +11,24 @@
 </head>
 
 <body>
-    <form name="formulaireDynamique">
-        <input type="button" class="bg-primary" onclick="ajout(this);" value="AJOUTER-MOI"/>
-        <br /><br />
-        <input type="submit" value="ENVOYER"/>
-     </form>
+    <div>
+    <form id="formClone" name="formulaireDynamique" class="d-flex flex-column text-center">
+        <div id="form">
+            <div>
+                <label>Prénom</label>
+                <input type="text" />
+            </div>
 
+            <div>
+                <label>Age</label>
+                <input type="text" />
+            </div>
+
+        </div>
+        
+    </form>
+</div>
+<input type="button" id="button" value="+" />
     <script src="assets/js/exercice8.js"></script>
 </body>
 
