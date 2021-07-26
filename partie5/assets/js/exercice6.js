@@ -1,7 +1,9 @@
-let focusName = document.getElementById('name');
-let age = document.getElementById('id');
+let firstname = document.getElementById('firstname');
+let lastname = document.getElementById('lastname');
 
-focusName = focus = () => {
-    document.getElementById('name').focus();
-    console.log(focus)
-}
+firstname.addEventListener('focus', function(){
+    firstname.style.border = "solid black 5px";
+});
+lastname.addEventListener('focus', function(){
+    lastname.style.border = "solid black 5px"
+});
