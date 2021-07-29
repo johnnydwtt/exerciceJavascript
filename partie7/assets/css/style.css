@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/7093476.image.jpg);
+}
+
+.text{
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;
+text-align: justify;
+}
+h5{
+    display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+}
+#filmTable{
+    background-color: #EEE;
+}
+.imgS{
+    color: rgb(219, 219, 32);
+}
