@@ -4,3 +4,37 @@
 .btnBlue{
     background-color: rgb(47, 139, 224);
 }
+
+.boldStyle {
+    font-weight: bold;
+}
+
+.colorStyle {
+    color: #8E9AAF;
+}
+
+.biggerStyle {
+    font-size: 25px;
+}
+
+body {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#text {
+    background-color: #feeafa;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#divButtons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}

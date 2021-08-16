@@ -11,5 +11,5 @@ btn.addEventListener('click', function(){
 
 function result(firstNumber,secondNumber) {
     return firstNumber * secondNumber;
-
+ 
   };
